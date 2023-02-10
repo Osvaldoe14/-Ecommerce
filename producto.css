@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background: #008A93;
+    
+}
+
+img{
+    width: 98%
+   
+}
+
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+    display: block;
+}
+
+a:hover{
+    background: black;
+}
+
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+.encabezado nav ul li ul{
+    position: absolute;
+    background: black;
+}
+
+.encabezado nav ul li ul li{
+     width: 180px;
+     position: relative;
+}
+
+.encabezado nav ul li ul li ul{
+    top: 0;
+    left: 180px;
+    position: absolute;
+    
+}
+
+.encabezado nav ul li ul{
+    display: none;
+}
+
+.encabezado nav ul li:hover > ul{
+     display: block;
+}
+
+.baner{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.marca{
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+
+.baby{
+    width: 300px;
+    margin-left: 9rem;
+    justify-content: space-between;
+}
+
+.marcas{
+    width: 300px;
+    margin-left: 2rem;
+}
+
+.pacinos{
+    width: 300px;
+    margin-left: 9rem;
+}
+
+.club{
+    width: 300px;
+    margin-left: 3rem;
+    justify-content: space-between;
+}
+
+.belleza{
+    width: 400px;
+    margin-left: 28rem ;
+}
+
+.tarjeta{
+    width: 130px;
+    margin-left: 5rem;
+}
+
+.footer{
+    background-color: grey;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.terminos{
+    font-size: 3rem;
+    margin-top: 3rem;
+    display: flex;
+    padding: auto;
+    list-style: none;
+    margin-left: 5rem;
+    margin-right: 55rem;
+    justify-content: space-between;
+    margin-bottom: 25rem;
+    text-decoration: none;
+}
+
+.lista{
+    font-size: 12px;
+}
+
+.submenu{
+    list-style: none;
+}
+
+.menu li a:hover{
+    color: black
+}
+
+.terminos li a:hover{
+    color: black
+}
+
+.submenu{
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menu li:hover.submenu{
+     visibility: visible;
+     opacity: 1;
+}
+
+.politicas{
+    margin-left: 3rem;
+}
+
+.container-boton{
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 80%;
+    bottom: 20px;
+    right: 25px;
+    
+    transition: ease 0.3s;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 60px;
+    transition: ease 1s;
+}
